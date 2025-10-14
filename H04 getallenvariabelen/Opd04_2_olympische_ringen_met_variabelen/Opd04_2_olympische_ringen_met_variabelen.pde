@@ -1,0 +1,10 @@
+size(500, 500);
+int x = 250;
+int y = 100;
+int w = 50;
+noFill();
+ellipse(x-25, y-25, w, w);
+ellipse(x, y-25, w, w);
+ellipse(x+25, y-25, w, w);
+ellipse(x-12.5, y, w, w);
+ellipse(x+12.5, y, w, w);
